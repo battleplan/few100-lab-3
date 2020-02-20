@@ -44,6 +44,29 @@
             <p>
                 You are tipping <span id="tip-notification">0</span>%
             </p>
+            <div class="btn-group btn-group-toggle"
+                 data-toggle="buttons">
+                <label class="btn btn-secondary">
+                    <input type="radio"
+                           value=".10"
+                           name="options"
+                           id="option1"
+                           checked> 10%
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio"
+                           value=".15"
+                           name="options"
+                           id="option2"> 15%
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio"
+                           value=".20"
+                           name="options"
+                           id="option3"> 20%
+                </label>
+            </div>
+
         </div>
         <div id="list">
             <ul class="list-group">
@@ -53,6 +76,7 @@
                 <li class="list-group-item">Total to be Paid: $<span id="totalBill">0.00</span></li>
             </ul>
         </div>
+
     </main>
 </body>
 

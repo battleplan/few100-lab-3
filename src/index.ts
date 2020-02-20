@@ -7,9 +7,17 @@ const check = document.getElementById('check') as HTMLSpanElement;
 const activeTipPercent = document.getElementById('tipPercentage') as HTMLSpanElement;
 const tipNotification = document.getElementById('tip-notification') as HTMLSpanElement;
 const totalBill = document.getElementById('totalBill') as HTMLSpanElement;
+const optionOne = document.getElementById('option1') as HTMLButtonElement;
+const optionTwo = document.getElementById('option2') as HTMLButtonElement;
+const optionThree = document.getElementById('option3') as HTMLButtonElement;
 
+/* make buttons move slider
+optionOne.addEventListener('click', () => {
+    const opt1 = (document.getElementById('tipInput') as HTMLInputElement).value;
+    const ten = 10;
 
-
+});
+*/
 document.getElementById('tipInput').onchange = function () {
 
     const tip = (document.getElementById('tipInput') as HTMLInputElement).value;
